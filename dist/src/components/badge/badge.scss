@@ -1,0 +1,26 @@
+// @import '@bit/dpeet.ux-components.styles';
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+
+$ag_blue: #0659D4;
+$background: #F9F9F9;
+
+@mixin ag-badge{
+    font-family: Inter;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 10px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.badge {
+    @include ag-badge;
+    border-radius: 3px;
+    padding: 3px 5px 3px 5px;
+    // background: aqua;
+    background: $ag-blue;
+    display: inline;
+    color: $background
+
+}

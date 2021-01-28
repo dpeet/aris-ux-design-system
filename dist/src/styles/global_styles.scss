@@ -1,0 +1,198 @@
+// Color
+$background: #F9F9F9;
+$low_contrast: #EAEDF3;
+$mid_contrast: #4D535C;
+$high_contrast: #212934;
+$highlight: #377ADC;
+$modal_background: rgba(0, 0, 0, .3);
+$error: #EA3F1C;
+$success: #38AE4A;
+$alert: #F99011;
+$disable: #8A95A5;
+$disable_light: #D3D3D3;
+$disable_extralight: #F4F5F8;
+$disable_blue: #82ACE9;
+$ag_blue: #0659D4;
+$ag_blue_dark: #0447A9;
+$ag_blue_light: #8A95A5;
+$ag_blue_focus: #DCE6F4;
+$ag_blue_hover: #EFF3F7;
+
+@font-face {
+    font-family: 'Inter-Black';
+    src: local('Inter-Black'), url('../Inter-Black.ttf') format('tff');
+}
+
+@font-face {
+    font-family: 'Inter-Bold';
+    src: local('Inter-Bold'), url('../Inter-Bold.ttf') format('tff');
+}
+
+@font-face {
+    font-family: 'Inter-ExtraBold';
+    src: local('Inter-ExtraBold'), url('../Inter-ExtraBold.ttf') format('tff');
+}
+
+@font-face {
+    font-family: 'Inter-ExtraLight';
+    src: local('Inter-ExtraLight'), url('../Inter-ExtraLight.ttf') format('tff');
+}
+
+@font-face {
+    font-family: 'Inter-Light';
+    src: local('Inter-Light'), url('../Inter-Light.ttf') format('tff');
+}
+
+@font-face {
+    font-family: 'Inter-Medium';
+    src: local('Inter-Medium'), url('../Inter-Medium.ttf') format('tff');
+}
+
+@font-face {
+    font-family: 'Inter-Regular';
+    src: local('Inter-Regular'), url('../Inter-Regular.ttf') format('tff');
+}
+
+@font-face {
+    font-family: 'Inter-SemiBold';
+    src: local('Inter-SemiBold'), url('../Inter-SemiBold.ttf') format('tff');
+}
+
+@font-face {
+    font-family: 'Inter-Thin';
+    src: local('Inter-Thin'), url('../Inter-Thin.ttf') format('tff');
+}
+
+//Typography
+@mixin ag-h1{
+    font-family: 'Inter-Regular';
+    font-size: 96px;
+    line-height: 116px;
+    letter-spacing: -2.5px;
+    
+}
+
+@mixin ag-h2{
+    font-family: 'Inter-ExtraLight';
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -1.25px;
+    
+}
+
+@mixin ag-h3{
+    font-family: 'Inter-Regular';
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.75px;
+    
+}
+
+@mixin ag-h4{
+    font-family: 'Inter-Regular';
+    font-size: 38px;
+    line-height: 46px;
+    
+}
+
+@mixin ag-h5{
+    font-family: 'Inter-Regular';
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.25px
+    
+}
+
+@mixin ag-h6{
+    font-family: 'Inter-Medium';
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.3px
+    
+}
+
+@mixin ag-h6light{
+    font-family: 'Inter-Light';
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.3px
+    
+}
+
+@mixin ag-subtitle1{
+    font-family: 'Inter-Regular';
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.35px
+     
+}
+
+@mixin ag-subtitle2{
+    font-family: 'Inter-Medium';
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.4px
+     
+}
+
+@mixin ag-body1{
+    font-family: 'Inter-Regular';
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.4px
+     
+}
+
+@mixin ag-body2{
+    font-family: 'Inter-Regular';
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.4px
+     
+}
+
+@mixin ag-button{
+    font-family: 'Inter-Medium';
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+@mixin ag-caption{
+    font-family: 'Inter-Regular';
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px
+     
+}
+
+@mixin ag-overline{
+    font-family: 'Inter-Medium';
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+    
+@mixin ag-input{
+    //styleName: Input;
+    font-family: 'Inter-Regular';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+    }
+
+@mixin ag-badge{
+    font-family: 'Inter-Black';
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 10px;
+    letter-spacing: 0px;
+    text-align: center;
+}

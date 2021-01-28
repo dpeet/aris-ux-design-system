@@ -1,7 +1,8 @@
-/* initially label is below input */
+@import '@bit/dpeet.ux-components.styles';
 
+// initially label is below input
 label {
-    font-family: Inter;
+    @include ag-input;
     display: inline-block;
     position: absolute;
     left: 16px;
@@ -10,7 +11,6 @@ label {
     transform: translateY(-50%);
     transition: color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms, transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
     color: #676767;
-    font-size: 16px;
 }
 
 

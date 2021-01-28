@@ -1,25 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 import Input from '@bit/dpeet.ux-components.input'
+import Badge from './components/badge/badge';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <Input label="Search"/>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Input label="Search"/>
+      <Badge text="TS"/>
     </div>
   );
 }
